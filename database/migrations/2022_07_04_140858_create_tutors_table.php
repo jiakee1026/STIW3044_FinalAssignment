@@ -15,6 +15,11 @@ class CreateTutorsTable extends Migration
     {
         Schema::create('tutors', function (Blueprint $table) {
             $table->id();
+            $table->string('tutor_name');
+            $table->string('tutor_email');
+            $table->float('tutor_phonenum');
+            $table->string('tutor_mailingaddress');
+            $table->float('tutor_state');
             $table->timestamps();
         });
     }
