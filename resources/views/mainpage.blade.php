@@ -38,12 +38,12 @@
     </script>
     @endif
 
-    <header class="w3-center w3-padding-large" style="background-color:#ccf2ff">
+    <header class="w3-center w3-padding-large" style="background-color:#ccccff">
         <h2>Subject List</h2>
     </header>  
 
     <div>
-        <button class="w3-button w3-round w3-right w3-margin" style="background-color:#ccf2ff" onclick="document.getElementById('newsubject').style.display= 'block';return false;">New Subject</button>
+        <button class="w3-button w3-round w3-right w3-margin" style="background-color:#ccccff" onclick="document.getElementById('newsubject').style.display= 'block';return false;">New Subject</button>
     </div>
 
     <div class="w3-padding">
@@ -79,7 +79,7 @@
                     </div>
                     <div id="{{$loop->iteration}}" class="w3-modal w3-animate-opacity">
                         <div class="w3-modal-content w3-round" style="width:500px">
-                            <header class="w3-row" style="background-color:#ccf2ff"> <span onclick="document.getElementById('{{$loop->iteration}}').style.display='none'" class="w3-button w3-display-topright w3-small">&times;</span>
+                            <header class="w3-row" style="background-color:#ccccff"> <span onclick="document.getElementById('{{$loop->iteration}}').style.display='none'" class="w3-button w3-display-topright w3-small">&times;</span>
                                 <h4 class="w3-margin-left">Update Subject Form</h4>
                             </header>
                             <div class="w3-padding">
@@ -90,7 +90,7 @@
                                     <p><input class="w3-input w3-round w3-border" type="number" name="subjectprice" placeholder="Price" step="any" value ="{{ $listItem->subject_price}}"></p>
                                     <p><input class="w3-input w3-round w3-border" type="number" name="subjecttotallearninghours" placeholder="Total Learning Hours" value ="{{ $listItem->subject_totallearninghours}}"></p>
                                     </textarea></p>
-                                    <button class="w3-button w3-round style="background-color:#ccf2ff"" type="submit">Update</button>
+                                    <button class="w3-button w3-round" style="background-color:#ccccff" type="submit">Update</button>
                                 </form>
                             </div>
                         </div>
@@ -102,12 +102,12 @@
 
         </table>
     </div>
-    <footer class="w3-footer w3-center" style="background-color:#ccf2ff">My Tutor App</footer>
+    <footer class="w3-footer w3-center" style="background-color:#ccccff">My Tutor App</footer>
 
 
 <div id="newsubject" class="w3-modal w3-animate-opacity">
         <div class="w3-modal-content w3-round" style="width:500px">
-            <header class="w3-row" style="background-color:#ccf2ff"> <span onclick="document.getElementById
+            <header class="w3-row" style="background-color:#ccccff"> <span onclick="document.getElementById
      ('newsubject').style.display='none'" class="w3-button w3-display-topright w3-small">&times;</span>
                 <h4 class="w3-margin-left">New Subject Form</h4>
             </header>
@@ -119,7 +119,7 @@
                     <p><input class="w3-input w3-round w3-border" type="text" name="subjectprice" placeholder="Price" step="any"></p>
                     <p><input class="w3-input w3-round w3-border" type="text" name="subjecttotallearninghours" placeholder="Total Learning Hours"></p>
                     </textarea></p>
-                    <button class="w3-button w3-round" style="background-color:#ccf2ff" type="submit">Insert</button>
+                    <button class="w3-button w3-round" style="background-color:#ccccff" type="submit">Insert</button>
                 </form>
             </div>
         </div>

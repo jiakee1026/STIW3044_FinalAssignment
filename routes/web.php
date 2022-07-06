@@ -15,7 +15,8 @@ use App\Http\Controllers\SubjectListController;
 |
 */
 
-Route::get('login', [AuthController::class, 'index'])->name('login');
+Route::get('landing', [AuthController::class, 'index'])->name('landing');
+Route::get('login', [AuthController::class, 'login'])->name('login');
 Route::get('mainpage', [AuthController::class, 'mainpage'])->name('mainpage');
 Route::get('registration', [AuthController::class, 'register'])->name('register');
 Route::post('post-registration', [AuthController::class, 'postRegistration'])->name('register.post');

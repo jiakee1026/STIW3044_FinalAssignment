@@ -24,16 +24,16 @@
 </head>
 <body>
 <div class="w3-container">
-   <div class="w3-bar" style="background-color:#ccf2ff">
-   <a class="w3-bar-item w3-button w3-right" href="{{ url('login') }}"> 
-       Login</a>
+   <div class="w3-bar" style="background-color:#ccccff">
+   <a class="w3-bar-item w3-button w3-right" href="{{ url('landing') }}">My Tutor</a>
+   <a class="w3-bar-item w3-button w3-right" href="{{ url('login') }}">Login</a>
     </div>
-   <header class="w3-center w3-padding-large" style="background-color:#ccf2ff">
+   <header class="w3-center w3-padding-large" style="background-color:#ccccff">
       <h2>MY TUTOR</h2>
    </header>
    <div class="w3-padding">
       <div class="w3-card w3-round">
-        <header class="w3-padding" style="background-color:#ccf2ff">
+        <header class="w3-padding" style="background-color:#ccccff">
           <h3>Registration</h3>
         </header>
        <div class="w3-padding ">
@@ -75,12 +75,12 @@
            @if ($errors->has('password'))
              <span class="text-danger">{{ $errors->first('password') }}</span>
            @endif
-           <button class="w3-button w3-round" style="background-color:Grey">Register</button>
+           <button class="w3-button w3-round" style="background-color:LightGray">Register</button>
          </form>
       </div>
     </div>
   </div>
-  <footer class="w3-footer w3-center" style="background-color:#ccf2ff">My Tutor App</footer>
+  <footer class="w3-footer w3-center" style="background-color:#ccccff">Copyright&copy Tan Jia Kee</footer>
 </div>
 
 </body>
