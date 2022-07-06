@@ -102,8 +102,7 @@
 
         </table>
     </div>
-    <footer class="w3-footer w3-center" style="background-color:#ccccff">My Tutor App</footer>
-
+    <footer class="w3-footer w3-center" style="background-color:#ccccff">Copyright&copy Tan Jia Kee</footer>
 
 <div id="newsubject" class="w3-modal w3-animate-opacity">
         <div class="w3-modal-content w3-round" style="width:500px">
